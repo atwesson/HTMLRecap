@@ -61,11 +61,11 @@
 			</nav>
 		</div>
 	<section>
-		<div style="width: 90%; height: 100%; background-color: darkgrey; float: right;">
+		<div style="width: 90%; height: 100%; float: right;">
 			<div style="float: left; height: 100%; width: 50%;">
 				<iframe src="https://www.youtube.com/embed/owsfdh4gxyc"
 					frameborder="0"
-					width="100%" height="315"
+					width="100%" height="520"
 					allowfullscreen
 					>
 				</iframe>
@@ -76,33 +76,61 @@
 					<h1 style="border-bottom: 3px solid black; padding: 0; margin: 0;">Eleven Fifty HTML Prework</h1>
 					<p >This is the last assignment in the prework HTML module. Even though I enjoyed this section I am happy to move on. I am excited to get to JS prework module, but sadly I still have the CSS module to go. I added the flamigo video to my own assignment because I thought it was really informative. All of my assignments from the HTML prework are in the vertical nav on the left. They may not work once this is on github because this is the only file in the repository.</p>
 				</div>
-				<div style="border: 3px solid black; border-top: 1px solid black; background-color:cornflowerblue;">
-					<h3 style="border-bottom: 3px solid black; padding: 0; margin: 0;">Give Me feedback:</h3>
-					<div style="float: left; width: 45%;">
-						<p3>Full Name:</p3>
-					  <input style="width: 65%;">
+				<form>
+					<div style="border: 3px solid black; border-top: 1px solid black; background-color:cornflowerblue;">
+						<h3 style="border-bottom: 3px solid black; padding: 0; margin: 0;">Give Me feedback:</h3>
+						<div style="float: left; width: 45%;">
+							<p3>Full Name:</p3>
+						<input style="width: 65%;">
+						</div>
+						<div style="float: left; width: 45%;">
+							<p3>Email:</p3>
+						<input type="email"  style="width: 70%;"/>
+						</div>
+						<div style="clear: both; ">
+							<p3 style="vertical-align: top;">Response:</p3>
+							<textarea name="response" rows="5" cols="60" style="max-width: fit-content; max-height: fit-content;"></textarea>
+						</div>
 					</div>
-					<div style="float: left; width: 45%;">
-						<p3>Email:</p3>
-					  <input type="email"  style="width: 70%;"/>
-					</div>
-					<div style="clear: both; ">
-						<p3 style="vertical-align: top;">Response:</p3>
-						<textarea name="response" rows="5" cols="60" style="max-width: fit-content; max-height: fit-content;"></textarea>
-					</div>
-				</div>
+					<fieldset style="background-color: darkolivegreen;">
+						<legend style="background-color: white;">Rank the colors used in this assignment</legend>
+						<p>
+							<input type="radio" name="size"
+								id="size0" value="size0" />
+							<label for="size0">0-Bad</label>
+						</p>
+						<p>
+							<input type="radio" name="size" 
+								id="size1" value="size1" />
+							<label for="size1">1-Needs Work</label>
+						</p>
+						<p>
+							<input type="radio" name="size"
+								id="size2" value="size2" />
+							<label for="size2">2-Just OK</label>
+						</p>
+						<p>
+							<input type="radio" name="size"
+								id="size3" value="size3" />
+							<label for="size3">3-Decent</label>
+						</p>
+						<p>
+							<input type="radio" name="size"
+								id="size4" value="size4" />
+							<label for="size4">5-Good</label>
+						</p>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 	</section>
-	</div>
-
-    <footer style="background-color:bisque;">
-		<p>Copyright Â© 2006 The Example Company</p>
-			<p>
-			<a href="#about">About Us</a> -
-			<a href="#policy">Policy</a> -
-			<a href="#contact">Contact Us</a>
-		</p>
-	</footer>
+	<footer style="background-color: grey;">
+        <p>Copyright Â© 2006 The Example Company</p>
+        <p>
+            <a href="#about">About Us</a> -
+            <a href="#policy">Policy</a> -
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
 </body>
 </html>
